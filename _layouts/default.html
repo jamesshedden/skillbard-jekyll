@@ -5,6 +5,11 @@
 
   <body>
     {{ content }}
-    <script src="{{ site.url }}/assets/main.js"></script>
+
+    {% if site.safe == 'true' %}
+      <script src="{{ site_url }}/assets/main.js"></script>
+    {% else %}
+      {% javascript main %}
+    {% endif %}
   </body>
 </html>
