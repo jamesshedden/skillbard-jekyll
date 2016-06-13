@@ -1,0 +1,8 @@
+.post-container {
+  opacity: 0;
+  transition: 0.4s all cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.post-container.is-visible {
+  opacity: 1;
+}

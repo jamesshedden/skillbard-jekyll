@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "GT Walsheim";
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}

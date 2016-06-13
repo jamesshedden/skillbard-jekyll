@@ -1,0 +1,29 @@
+.content {
+  padding: 5px;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  overflow-y: scroll;
+  left: 0;
+  transform: translateX(50%);
+  background: white;
+  transition: 0.4s all cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.content.is-expanded {
+  transform: translateX(75px);
+}
+
+.content.is-active {
+  background: #48D8BE;
+}
+
+.content__tiles-container {
+  width: 50%;
+  opacity: 0;
+  transition: 0.4s all cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.content__tiles-container.is-visible {
+  opacity: 1;
+}

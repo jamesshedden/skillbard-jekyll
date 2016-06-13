@@ -1,10 +1,61 @@
 <!DOCTYPE html>
 
+{% if page.layout == 'default' %}
+
+  {% assign tiles_container_classnames = 'content__tiles-container is-visible' %}
+  {% assign content_classnames = 'content' %}
+  {% assign post_container_classnames = 'post-container u-hidden' %}
+  {% assign sidebar_classnames = 'sidebar' %}
+
+{% elsif page.layout == 'post'%}
+
+  {% assign tiles_container_classnames = 'content__tiles-container u-hidden' %}
+  {% assign content_classnames = 'content is-active is-expanded' %}
+  {% assign post_container_classnames = 'post-container is-visible' %}
+  {% assign sidebar_classnames = 'sidebar is-collapsed' %}
+
+{% endif %}
+
 <html>
   {% include head.html %}
 
   <body>
-    {{ content }}
+    <div class="site">
+      <aside class="{{ sidebar_classnames }}"
+      id="sidebar">
+        <div class="sidebar__details">
+          <h3>Skillbard</h3>
+
+          <p>
+            Music and sound for film,
+            animations and adverts
+          </p>
+
+          <p>[logos]</p>
+
+          <p>oswald@skillbard.com</p>
+        </div>
+      </aside>
+
+      <main class="{{ content_classnames }}"
+      id="content">
+        <div id="post-container"
+        class="{{ post_container_classnames }}">
+          {{ content }}
+        </div>
+
+        <div class="{{ tiles_container_classnames }}"
+        id="tiles-container">
+          {% for post in site.posts %}
+            <div class="tile"
+            data-url="{{ post.url }}"
+            data-title="{{ post.title }}">
+              <img src="{{ post.thumbnail }}">
+            </div>
+          {% endfor %}
+        </div>
+      </main>
+    </div>
 
     {% if site.safe == 'true' %}
       <script src="{{ site_url }}/assets/main.js"></script>

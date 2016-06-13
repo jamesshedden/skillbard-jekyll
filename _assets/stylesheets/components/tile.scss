@@ -1,4 +1,16 @@
 .tile {
-  padding: 10px;
-  background: $grey-color-light;
+  float: left;
+  width: 50%;
+  padding: 5px;
+  height: auto;
+  font-size: 0;
+}
+
+.tile img {
+  width: 100%;
+  height: auto;
+}
+
+.tile:hover {
+  cursor: pointer;
 }

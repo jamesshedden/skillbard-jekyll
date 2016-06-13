@@ -1,8 +1,20 @@
 .sidebar {
   padding: 10px;
-  background: $grey-color;
+  background: white;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.sidebar.is-collapsed {
-  background: red;
+.sidebar__details {
+  height: 200px;
+  display: block;
+  transition: 0.4s all cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.sidebar.is-collapsed .sidebar__details {
+  opacity: 0;
+  transform: scale(0.5) translateX(100px);
 }
