@@ -64,7 +64,6 @@ function expandContent(options) {
       postContainer.classList.remove('u-hidden');
       postContainer.classList.add('is-visible');
       window.history.pushState({}, `Skillbard - ${options.title}`, options.url)
-
       window.addEventListener('popstate', collapseContent);
     }
 
@@ -85,6 +84,13 @@ function expandContent(options) {
   find('#content').classList.add('is-active');
 }
 
+function expandListener(event) {
+  expandContent({
+    url: event.target.location.href,
+    title: 'foo',
+  });
+}
+
 function collapseContent() {
   let postContainer = find('#post-container');
 
@@ -98,7 +104,8 @@ function collapseContent() {
       find('#content').classList.remove('is-active');
       removeTransitionEndListener(find('#sidebar'), listenForTileClick);
       window.removeEventListener('popstate', collapseContent);
-      window.history.pushState({}, `Skillbard`, '/')
+      window.addEventListener('popstate', expandListener);
+      window.history.replaceState({}, 'Skillbard', '/')
     });
 
     find('#sidebar').classList.remove('is-collapsed');
