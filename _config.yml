@@ -7,3 +7,13 @@ description: > # this means to ignore newlines until "baseurl:"
 url: "http://jamesshedden.github.io/skillbard-jekyll"
 markdown: kramdown
 gems: [jekyll-assets, uglifier]
+include: ["_pages"]
+permalink: /:title/
+host: 0.0.0.0
+assets:
+  sources:
+    - _assets
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts

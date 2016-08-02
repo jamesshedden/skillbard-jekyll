@@ -1,0 +1,90 @@
+.main {
+  background: white;
+  height: 100%;
+  display: flex;
+  flex: 1 0 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.main__wrapper {
+  padding: 10px;
+}
+
+.main__details {
+  flex: 1 1 auto;
+  transition: 0.4s all cubic-bezier(0.55, 0, 0.1, 1);
+  text-align: center;
+}
+
+.main.is-collapsed .main__details {
+  opacity: 0;
+  transform: scale(0.5) translateX(100px);
+}
+
+.main__text {
+  font-size: 22px;
+  margin: 40px 0;
+  width: 250px;
+}
+
+@media (max-width: 1200px) {
+  .main__text {
+    width: auto;
+    margin: 30px 0;
+  }
+
+  .main {
+    flex: none;
+    display: block;
+    height: auto;
+  }
+
+  .main__wrapper {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 610px) {
+  .main__text {
+    width: 250px;
+    margin: 30px auto;
+  }
+}
+
+.main-sidebar__icon {
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+  border-radius: 50%;
+  background: $blue;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 1;
+  transform: scale(1);
+  transition: 0.2s transform $animation-curve;
+}
+
+.main-sidebar__icon.is-open {
+  transform: scale(0);
+}
+
+.main-sidebar__icon--post {
+  right: 25px;
+}
+
+.main-sidebar__icon:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.main-sidebar__icon-image {
+  width: 100%;
+  height: auto;
+}

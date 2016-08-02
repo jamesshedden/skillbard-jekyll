@@ -1,14 +1,18 @@
-@import 'fonts/gt-walsheim';
+@import '../fonts/gt-walsheim';
 
 @import 'variables';
 
 @import 'scaffold/normalize';
 @import 'scaffold/base';
 
+@import 'components/client-logos';
 @import 'components/content';
+@import 'components/logo';
+@import 'components/main';
 @import 'components/post-container';
 @import 'components/tile';
 @import 'components/sidebar';
 @import 'components/site';
 
 @import 'utilities/display';
+@import 'utilities/text';

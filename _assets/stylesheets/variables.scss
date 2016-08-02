@@ -11,10 +11,19 @@ $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
 $green: #48D8BE;
+$green-dark: #00B292;
+$green-transparent: rgba(72, 216, 190, 0.9);
+
+$gradient: linear-gradient(135deg, rgba(109, 226, 255, 1) 0%, rgba(72, 216, 190, 0.8) 100%);
+
+$animation-curve: cubic-bezier(0.55, 0, 0.1, 1.2);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+$red: #FFA29F;
+$blue: #4D3EFF;
 
 $content-width:    800px;
 

@@ -1,0 +1,20 @@
+.u-text-accent {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.u-link {
+  text-decoration: none;
+  color: white;
+}
+
+.u-link-accent {
+  text-decoration: none;
+  color: $blue;
+}
+
+.u-link:hover,
+.u-link-accent:hover {
+  text-decoration: underline;
+}

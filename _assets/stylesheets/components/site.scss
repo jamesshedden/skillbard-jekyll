@@ -1,6 +1,29 @@
 .site {
   display: flex;
   flex-direction: row;
-  flex-fill: auto;
   height: 100%;
+  width: 100%;
+  background: white;
+  transform: translateX(0);
+  transition: 0.2s transform $animation-curve;
+}
+
+.site.is-open {
+  transform: translateX(-25%);
+}
+
+@media (max-width: 1200px) {
+  .site {
+    flex-direction: column;
+  }
+
+  .site.is-open {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 610px) {
+  .site.is-open {
+    transform: translateX(-100%);
+  }
 }

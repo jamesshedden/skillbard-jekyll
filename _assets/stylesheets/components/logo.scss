@@ -1,0 +1,72 @@
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.logo {
+  width: 180px;
+  height: 160px;
+  display: inline-block;
+}
+
+.logo--post {
+  width: 100px;
+  height: 88px;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+
+.logo__image {
+  width: 100%;
+  height: auto;
+}
+
+.logo:hover {
+  animation: tada 1s forwards;
+}
+
+@media (max-width: 1200px) {
+  .logo,
+  .logo--post {
+    width: 130px;
+    height: 115px;
+    display: inline-block;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+
+  .logo--post {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 610px) {
+  .logo,
+  .logo--post {
+    width: 100px;
+    height: 88px;
+    display: inline-block;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+}

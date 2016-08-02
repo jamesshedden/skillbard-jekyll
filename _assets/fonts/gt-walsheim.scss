@@ -1,12 +1,12 @@
 @font-face {
  font-family: "GT Walsheim";
- src: url("./GT-Walsheim-Regular.ttf");
+ src: url(asset_path("fonts/GT-Walsheim-Regular.ttf"));
  font-weight: 300;
 }
 
 @font-face {
  font-family: "GT Walsheim";
- src: url("./GT-Walsheim-Regular-Oblique.ttf");
+ src: url(asset_path("fonts/GT-Walsheim-Regular-Oblique.ttf"));
  font-weight: 300;
  font-style: italic;
 }

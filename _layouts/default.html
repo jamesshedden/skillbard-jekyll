@@ -1,64 +1,113 @@
 <!DOCTYPE html>
 
-{% if page.layout == 'default' %}
-
-  {% assign tiles_container_classnames = 'content__tiles-container is-visible' %}
-  {% assign content_classnames = 'content' %}
-  {% assign post_container_classnames = 'post-container u-hidden' %}
-  {% assign sidebar_classnames = 'sidebar' %}
-
-{% elsif page.layout == 'post'%}
-
-  {% assign tiles_container_classnames = 'content__tiles-container u-hidden' %}
-  {% assign content_classnames = 'content is-active is-expanded' %}
-  {% assign post_container_classnames = 'post-container is-visible' %}
-  {% assign sidebar_classnames = 'sidebar is-collapsed' %}
-
-{% endif %}
-
 <html>
   {% include head.html %}
 
   <body>
-    <div class="site">
-      <aside class="{{ sidebar_classnames }}"
-      id="sidebar">
-        <div class="sidebar__details">
-          <h3>Skillbard</h3>
+    <div class="main-sidebar__icon u-text-accent" sidebar-toggle
+    id="main-sidebar-icon">
+      <span class="sidebar__icon-text">Menu</span>
+    </div>
 
-          <p>
-            Music and sound for film,
-            animations and adverts
-          </p>
+    <div class="site"
+    id="site">
+      {% if page.layout != 'post' %}
+        <div class="main"
+        id="main">
+          <div class="main__wrapper">
+            <div class="main__details">
+              <div class="logo">
+                <img class="logo__image"
+                src="/images/logo.png">
+              </div>
 
-          <p>[logos]</p>
+              <p class="main__text">
+                Music and sound for film, animations and adverts
+              </p>
 
-          <p>oswald@skillbard.com</p>
+              <div class="client-logos">
+                <img class="client-logos__image client-logos__image--portrait"
+                src="/images/client-logos.png">
+
+                <img class="client-logos__image client-logos__image--landscape"
+                src="/images/client-logos-landscape.png">
+              </div>
+            </div>
+          </div>
         </div>
-      </aside>
 
-      <main class="{{ content_classnames }}"
-      id="content">
-        <div id="post-container"
-        class="{{ post_container_classnames }}">
+        <div class="content"
+        id="content">
+          {% if page.layout == 'default' %}
+            {% for post in site.posts %}
+              <a class="tile"
+              href="{{ post.url }}">
+                <div class="tile__wrapper">
+                  <img src="{{ post.thumbnail }}">
+                  <div class="tile__overlay">
+                    <div class="tile__overlay-text">
+                      {{ post.title }}<br>
+                      <span class="tile__divider">—</span><br>
+                      {{ post.client }}
+                    </div>
+                  </div>
+                </div>
+              </a>
+            {% endfor %}
+          {% endif %}
+
+          {% if page.layout == 'category' %}
+            {{ content }}
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% if page.layout == 'post'%}
+        <div class="content content--post"
+        id="content">
+          <a href="/" class="logo logo--post">
+            <img class="logo__image"
+            src="/images/logo.png">
+          </a>
+
           {{ content }}
         </div>
+      {% endif %}
+    </div>
 
-        <div class="{{ tiles_container_classnames }}"
-        id="tiles-container">
-          {% for post in site.posts %}
-            <div class="tile"
-            data-url="{{ post.url }}"
-            data-title="{{ post.title }}">
-              <img src="{{ post.thumbnail }}">
-            </div>
-          {% endfor %}
-        </div>
-      </main>
+    <div class="sidebar"
+    id="sidebar">
+      <div class="sidebar__icon u-text-accent" sidebar-toggle
+      id="sidebar-icon">
+        <span class="sidebar__icon-text">Close</span>
+      </div>
+
+      <h4 class="u-text-accent">Categories</h4>
+
+      <ul>
+        {% for category in site.categories %}
+          <li>
+            <a class="u-link"
+            href="/{{ category[0] }}">
+              {{ category[0] | capitalize }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      —
+
+      <ul>
+        {% for page in site.pages %}
+          {% if page.title %}<li>{{ page.title }}</li>{% endif %}
+        {% endfor %}
+        <li>Facebook</li>
+        <li>Twitter</li>
+      </ul>
     </div>
 
     {% if site.safe == 'true' %}
-      <script src="{{ site_url }}/assets/main.js"></script>
+      <script src="/assets/main.js"></script>
     {% else %}
       {% javascript main %}
     {% endif %}

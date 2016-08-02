@@ -1,29 +1,28 @@
 .content {
-  padding: 5px;
-  width: 100%;
-  position: absolute;
-  height: 100%;
+  padding: 5px 0;
   overflow-y: scroll;
-  left: -5px;
-  transform: translateX(50%);
   background: white;
-  transition: 0.4s all cubic-bezier(0.55, 0, 0.1, 1);
+  flex: 1 0 0;
 }
 
-.content.is-expanded {
-  transform: translateX(75px);
+.content--post {
+  padding: 25px;
+  padding-left: 170px;
 }
 
-.content.is-active {
-  background: #48D8BE;
-}
+@media (max-width: 1200px) {
+  .content,
+  .content--post {
+    flex: none;
+    display: block;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 
-.content__tiles-container {
-  width: 50%;
-  opacity: 0;
-  transition: 0.4s all cubic-bezier(0.55, 0, 0.1, 1);
-}
-
-.content__tiles-container.is-visible {
-  opacity: 1;
+  .content--post {
+    padding: 50px 25px;
+    text-align: center;
+  }
 }

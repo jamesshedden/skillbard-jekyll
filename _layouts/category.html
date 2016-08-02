@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="tile">
+  <div class="tile__wrapper">
+    <img src="https://i.vimeocdn.com/video/570529759_295x166.jpg">
+    <div class="tile__overlay tile__overlay--category">
+      <div class="tile__overlay-text">
+        {{ page.category | capitalize }}<br>
+
+        <a href="/" class="u-link-accent u-text-accent">View all</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% for post in site.categories.[page.category] %}
+  <a class="tile"
+  href="{{ post.url }}">
+    <div class="tile__wrapper">
+      <img src="{{ post.thumbnail }}">
+      <div class="tile__overlay">
+        <div class="tile__overlay-text">
+          {{ post.title }}<br>
+          <span class="tile__divider">—</span><br>
+          {{ post.client }}
+        </div>
+      </div>
+    </div>
+  </a>
+{% endfor %}
