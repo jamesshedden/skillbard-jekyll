@@ -21,6 +21,7 @@ function $(selector, context) {
 let sidebar = $('#sidebar');
 let sidebarToggle = $('[sidebar-toggle]');
 let site = $('#site');
+let main = $('#main');
 
 function openSidebar() {
   sidebar.classList.add('is-open');
@@ -29,6 +30,8 @@ function openSidebar() {
   [].forEach.call(sidebarToggle, (element) => {
     element.classList.add('is-open');
   });
+
+  main.addEventListener('click', () => closeSidebar());
 }
 
 function closeSidebar() {
@@ -38,6 +41,8 @@ function closeSidebar() {
   [].forEach.call(sidebarToggle, (element) => {
     element.classList.remove('is-open');
   });
+
+  main.removeEventListener('click', () => closeSidebar());
 }
 
 [].forEach.call(sidebarToggle, (element) => {

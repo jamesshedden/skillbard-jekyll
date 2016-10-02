@@ -7,11 +7,20 @@
   display: block;
   float: left;
   overflow: hidden;
+  position: relative;
 }
 
 @media (max-width: 1200px) {
   .tile {
     padding: 0 10px 10px 0;
+    width: 33.3%;
+  }
+}
+
+@media (max-width: 900px) {
+  .tile {
+    padding: 0 10px 10px 0;
+    width: 50%;
   }
 }
 
@@ -62,4 +71,10 @@
 .tile__divider {
   margin: 10px 0;
   display: inline-block;
+}
+
+.tile__overlay-home-link {
+  position: absolute;
+  top: $spacing-unit;
+  left: $spacing-unit;
 }
