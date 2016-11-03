@@ -35,11 +35,19 @@
   .post-container__embed iframe, {
     width: 100%;
   }
+
+  .post-container__content {
+    width: 100%;
+  }
 }
 
 @media (max-width: 800px) {
   .post-container {
     width: 400px;
+  }
+
+  .post-container__content {
+    width: 100%;
   }
 }
 
@@ -47,5 +55,9 @@
   .post-container {
     width: 100%;
     padding: 0 15px;
+  }
+
+  .post-container__content {
+    width: 100%;
   }
 }
