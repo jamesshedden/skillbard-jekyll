@@ -4,143 +4,145 @@
   {% include head.html %}
 
   <body>
-    <div class="main-sidebar__icon u-text-accent" sidebar-toggle
-    id="main-sidebar-icon">
-      <span class="sidebar__icon-text">Menu</span>
-    </div>
+    <div class="wrapper">
+      <div class="main-sidebar__icon u-text-accent" sidebar-toggle
+      id="main-sidebar-icon">
+        <span class="sidebar__icon-text">Menu</span>
+      </div>
 
-    <div class="site"
-    id="site">
-      {% if page.layout != 'post' %}
-        <div class="main"
-        id="main">
-          <div class="main__wrapper">
-            <div class="main__details{% if page.title and page.layout != 'category' %} main__details--page{% endif %}">
-              <div class="logo">
-                <img class="logo__image"
-                src="/images/logo.png">
-              </div>
+      <div class="site"
+      id="site">
+        {% if page.layout != 'post' %}
+          <div class="main"
+          id="main">
+            <div class="main__wrapper">
+              <div class="main__details{% if page.title and page.layout != 'category' %} main__details--page{% endif %}">
+                <div class="logo">
+                  <img class="logo__image"
+                  src="/images/logo.png">
+                </div>
 
-              <p class="main__text">
-                Music and sound for film, animations and adverts
-              </p>
+                <p class="main__text">
+                  Music and sound for film, animations and adverts
+                </p>
 
-              <div class="client-logos">
-                <img class="client-logos__image client-logos__image--portrait"
-                src="/images/client-logos.png">
+                <div class="client-logos">
+                  <img class="client-logos__image client-logos__image--portrait"
+                  src="/images/client-logos.png">
 
-                <img class="client-logos__image client-logos__image--landscape"
-                src="/images/client-logos-landscape.png">
+                  <img class="client-logos__image client-logos__image--landscape"
+                  src="/images/client-logos-landscape.png">
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="content"
-        id="content">
-          {% if page.layout == 'default' %}
-            {% for post in site.posts %}
-              <a class="tile"
-              href="{{ post.url }}">
-                <div class="tile__wrapper">
-                  <img src="{{ post.thumbnail }}">
-                  <div class="tile__overlay">
-                    <div class="tile__overlay-text">
-                      {{ post.title }}<br>
-                      <span class="tile__divider">—</span><br>
-                      {{ post.client }}
+          <div class="content"
+          id="content">
+            {% if page.layout == 'default' %}
+              {% for post in site.posts %}
+                <a class="tile"
+                href="{{ post.url }}">
+                  <div class="tile__wrapper">
+                    <img src="{{ post.thumbnail }}">
+                    <div class="tile__overlay">
+                      <div class="tile__overlay-text">
+                        {{ post.title }}<br>
+                        <span class="tile__divider">—</span><br>
+                        {{ post.client }}
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
-            {% endfor %}
-          {% endif %}
+                </a>
+              {% endfor %}
+            {% endif %}
 
-          {% if page.layout == 'category' %}
+            {% if page.layout == 'category' %}
+              {{ content }}
+            {% endif %}
+
+            {% if page.layout == 'page' %}
+              {{ content }}
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if page.layout == 'post'%}
+          <div class="content content--post"
+          id="content">
+            <a href="/" class="logo logo--post">
+              <img class="logo__image"
+              src="/images/logo.png">
+            </a>
+
             {{ content }}
-          {% endif %}
-
-          {% if page.layout == 'page' %}
-            {{ content }}
-          {% endif %}
-        </div>
-      {% endif %}
-
-      {% if page.layout == 'post'%}
-        <div class="content content--post"
-        id="content">
-          <a href="/" class="logo logo--post">
-            <img class="logo__image"
-            src="/images/logo.png">
-          </a>
-
-          {{ content }}
-        </div>
-      {% endif %}
-    </div>
-
-    <div class="sidebar"
-    id="sidebar">
-      <div class="sidebar__icon u-text-accent" sidebar-toggle
-      id="sidebar-icon">
-        <span class="sidebar__icon-text">Close</span>
+          </div>
+        {% endif %}
       </div>
 
-      <h4 class="u-text-accent">Categories</h4>
+      <div class="sidebar"
+      id="sidebar">
+        <div class="sidebar__icon u-text-accent" sidebar-toggle
+        id="sidebar-icon">
+          <span class="sidebar__icon-text">Close</span>
+        </div>
 
-      <ul>
-        {% for category in site.categories %}
-          <li>
-            <a class="u-link"
-            href="/{{ category[0] }}">
-              {{ category[0] | capitalize }}
-            </a>
-          </li>
-        {% endfor %}
+        <h4 class="u-text-accent">Categories</h4>
 
-        <li>
-          <a class="u-link"
-          href="/">
-            All
-          </a>
-        </li>
-      </ul>
-
-      —
-
-      <ul>
-        {% for page in site.pages %}
-          {% if page.title and page.layout != 'category' %}
+        <ul>
+          {% for category in site.categories %}
             <li>
               <a class="u-link"
-              href="{{ page.url }}">{{ page.title }}</a>
+              href="/{{ category[0] }}">
+                {{ category[0] | capitalize }}
+              </a>
             </li>
-          {% endif %}
-        {% endfor %}
-        <li>
-          <a class="u-link"
-          href="http://www.facebook.com/pages/Oswald-Skillbard/303816482973132">Facebook</a>
-        </li>
+          {% endfor %}
 
-        <li>
-          <a class="u-link"
-          href="http://www.instagram.com/skillbard">Instagram</a>
-        </li>
+          <li>
+            <a class="u-link"
+            href="/">
+              All
+            </a>
+          </li>
+        </ul>
 
-        <li>
-          <a class="u-link"
-          href="http://skillbard.bandcamp.com/">Bandcamp</a>
-        </li>
-      </ul>
+        —
 
-      —
+        <ul>
+          {% for page in site.pages %}
+            {% if page.title and page.layout != 'category' %}
+              <li>
+                <a class="u-link"
+                href="{{ page.url }}">{{ page.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+          <li>
+            <a class="u-link"
+            href="http://www.facebook.com/pages/Oswald-Skillbard/303816482973132">Facebook</a>
+          </li>
 
-      <ul>
-        <li>
-          <a class="u-link"
-          href="mailto://oswald@skillbard.com">oswald@skillbard.com</a>
-        </li>
-      </ul>
+          <li>
+            <a class="u-link"
+            href="http://www.instagram.com/skillbard">Instagram</a>
+          </li>
+
+          <li>
+            <a class="u-link"
+            href="http://skillbard.bandcamp.com/">Bandcamp</a>
+          </li>
+        </ul>
+
+        —
+
+        <ul>
+          <li>
+            <a class="u-link"
+            href="mailto://oswald@skillbard.com">oswald@skillbard.com</a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     {% if site.safe == 'true' %}

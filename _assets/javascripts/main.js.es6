@@ -31,7 +31,7 @@ function openSidebar() {
     element.classList.add('is-open');
   });
 
-  main.addEventListener('click', () => closeSidebar());
+  site.addEventListener('click', () => closeSidebar());
 }
 
 function closeSidebar() {
@@ -42,7 +42,7 @@ function closeSidebar() {
     element.classList.remove('is-open');
   });
 
-  main.removeEventListener('click', () => closeSidebar());
+  site.removeEventListener('click', () => closeSidebar());
 }
 
 [].forEach.call(sidebarToggle, (element) => {
