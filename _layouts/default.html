@@ -15,7 +15,7 @@
         <div class="main"
         id="main">
           <div class="main__wrapper">
-            <div class="main__details">
+            <div class="main__details{% if page.title and page.layout != 'category' %} main__details--page{% endif %}">
               <div class="logo">
                 <img class="logo__image"
                 src="/images/logo.png">
@@ -57,6 +57,10 @@
           {% endif %}
 
           {% if page.layout == 'category' %}
+            {{ content }}
+          {% endif %}
+
+          {% if page.layout == 'page' %}
             {{ content }}
           {% endif %}
         </div>
@@ -106,10 +110,36 @@
 
       <ul>
         {% for page in site.pages %}
-          {% if page.title %}<li>{{ page.title }}</li>{% endif %}
+          {% if page.title and page.layout != 'category' %}
+            <li>
+              <a class="u-link"
+              href="{{ page.url }}">{{ page.title }}</a>
+            </li>
+          {% endif %}
         {% endfor %}
-        <li>Facebook</li>
-        <li>Twitter</li>
+        <li>
+          <a class="u-link"
+          href="http://www.facebook.com/pages/Oswald-Skillbard/303816482973132">Facebook</a>
+        </li>
+
+        <li>
+          <a class="u-link"
+          href="http://www.instagram.com/skillbard">Instagram</a>
+        </li>
+
+        <li>
+          <a class="u-link"
+          href="http://skillbard.bandcamp.com/">Bandcamp</a>
+        </li>
+      </ul>
+
+      —
+
+      <ul>
+        <li>
+          <a class="u-link"
+          href="mailto://oswald@skillbard.com">oswald@skillbard.com</a>
+        </li>
       </ul>
     </div>
 

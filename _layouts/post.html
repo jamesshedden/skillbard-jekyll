@@ -5,7 +5,13 @@ layout: default
 <div id="post-container"
 class="post-container">
 
-  <div class="post-container__embed">{{ page.embed }}</div>
+  <div class="post-container__embed">
+    <iframe width="650"
+    height="366"
+    src="{{ page.embed }}"
+    frameborder="0"
+    allowfullscreen></iframe>
+  </div>
 
   <div class="post-container__info">
     <div class="post-container__info-title">{{ page.title }}</div>
