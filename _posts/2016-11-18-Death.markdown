@@ -1,0 +1,17 @@
+---
+title: Death
+layout: post
+client: Vox
+date: '2016-10-26 20:51:25 +0100'
+thumbnail: https://i.ytimg.com/vi/Mx9A0BjhEdU/hqdefault.jpg
+category: music
+embed: https://www.youtube.com/embed/Mx9A0BjhEdU
+---
+
+Music and sound for this scientific explanation of death. Written by Nadja Oertelt, directed by Sophie Koko Gate.
+
+[Nadja Oertelt](http://www.nadjaoertelt.com/)
+[Sophie Koko Gate](http://sophiekokogate.com/)
+[Vox](vox.com)
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1389995715/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=none/transparent=true/" seamless="">[Death by Skillbard](http://skillbard.bandcamp.com/track/death)</iframe>

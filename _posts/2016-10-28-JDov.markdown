@@ -1,0 +1,14 @@
+---
+title: JDov Talks Opener
+layout: post
+client: JHub
+date: '2016-10-26 20:51:25 +0100'
+thumbnail: Https://i.vimeocdn.com/video/546870970_295x166.jpg
+category: Music
+embed: https://player.vimeo.com/video/148041467
+---
+
+Sonic branding / composition for JDOV, a TED talks inspired platform from JHub, intended to amplify and celebrate creative thinkers who want to share their Jewish dreams, observations and visions.
+
+[Moth Collective](http://www.mothcollective.co.uk/)  
+[JDOV](http://www.jhub.org.uk/jdov/portfolio-type/talks/)

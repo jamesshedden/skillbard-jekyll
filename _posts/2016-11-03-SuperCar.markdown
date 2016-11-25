@@ -1,0 +1,14 @@
+---
+title: Super Car
+layout: post
+client: HiyaCar
+date: '2016-10-26 20:51:25 +0100'
+thumbnail: https://i.ytimg.com/vi/kOd6SJ94t7Y/hqdefault.jpg
+category: Music
+embed: https://www.youtube.com/embed/kOd6SJ94t7Y
+---
+
+Music, sound design and mix for this ad for HiyaCar.
+
+[Daniel Britt](http://www.danielbritt.co.uk/)  
+[HiyaCar](http://www.hiyacar.co.uk/)

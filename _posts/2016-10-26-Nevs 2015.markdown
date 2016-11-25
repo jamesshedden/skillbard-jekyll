@@ -1,0 +1,13 @@
+---
+title: Nevs 2015
+layout: post
+client:
+date: '2016-10-26 20:51:25 +0100'
+thumbnail: https://i.ytimg.com/vi/Eq0UeRAgq8A/hqdefault.jpg
+category: Music
+embed: https://www.youtube.com/embed/Eq0UeRAgq8A
+---
+
+Music for this short promo showcasing some of Nevs’ new talent.
+
+[Nevs Models](http://www.nevsmodels.co.uk/)

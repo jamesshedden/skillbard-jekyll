@@ -1,0 +1,18 @@
+---
+title: Taste
+layout: post
+client: Harvard University
+date: '2016-10-26 20:51:25 +0100'
+thumbnail: https://i.vimeocdn.com/video/541464317_295x166.jpg
+category: Music
+embed: https://player.vimeo.com/video/139611890
+---
+
+Part five of an eight-part series on representations of perception and sensation made for a Harvard online course The Fundamentals Of Neuroscience, all soundtracked by Skillbard.
+
+See the whole series [here](https://vimeo.com/channels/972301).
+
+Composer: Tom Carrell
+Words by Emily Dickinson&nbsp;
+Animation by [Brian Smee](http://briansmee.biz/)  
+Produced by [Nadja Oertelt](http://nadjaoertelt.com/)

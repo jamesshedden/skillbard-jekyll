@@ -1,0 +1,15 @@
+---
+title: Jung
+layout: post
+client: Munir Malik
+date: '2016-10-26 20:51:25 +0100'
+thumbnail: https://i.vimeocdn.com/video/266447167_295x166.jpg
+category: Music
+embed: https://player.vimeo.com/video/24063833
+---
+
+A short film by director Munir Malik.
+
+This is an edit of only the bits that included music. To see the full film please get in touch.
+
+<iframe style="border: 0; width: 700px; height: 307px;" src="https://bandcamp.com/EmbeddedPlayer/album=21961174/size=large/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/" seamless="">[Munir Malik's Jung OST by Skillbard](http://skillbard.bandcamp.com/album/munir-maliks-jung-ost)</iframe></p>

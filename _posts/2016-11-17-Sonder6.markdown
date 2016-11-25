@@ -1,0 +1,17 @@
+---
+title: Sonder6
+layout: post
+client: CTDL Games
+date: '2016-10-26 20:51:25 +0100'
+thumbnail: https://i.vimeocdn.com/video/585706213_295x166.jpg
+category: music
+embed: https://player.vimeo.com/video/178162802
+---
+
+Dynamic responsive score and sound effects for visually sophisticated endless runner iOS game.
+
+Available free in Apple's app store [here](http://itunes.apple.com/us/app/sonder-6/id1137930049?mt=8).
+
+[sonder6.com](www.sonder6.com)
+
+<iframe style="border: 0; width: 100%; height: 261px;" src="https://bandcamp.com/EmbeddedPlayer/album=3665381614/size=large/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/" seamless="">[Sonder6 OST by Skillbard](http://skillbard.bandcamp.com/album/sonder6-ost)</iframe>

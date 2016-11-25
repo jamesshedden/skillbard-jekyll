@@ -1,0 +1,15 @@
+---
+title: Visuelt 2011
+layout: post
+client: Grafil
+date: '2016-10-26 20:51:25 +0100'
+thumbnail: https://i.vimeocdn.com/video/266458334_295x166.jpg
+category: Music
+embed: https://player.vimeo.com/video/38690725
+---
+
+Ident sequences created by Non-Format for Visuelt, the annual Norwegian design award show.
+
+We made around 10 pieces of music like this among other bits. Watch more [here](vimeo.com/album/1873779/ "Visuelt 2011").
+
+We also wrote extra pieces to be used on an hour-long behind-the-scenes documentary on the festival made by BLVK and Grafil. Watch it [here](vimeo.com/25223891 "BLVK").

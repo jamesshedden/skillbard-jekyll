@@ -1,0 +1,16 @@
+---
+title: Forest 500
+layout: post
+client:
+date: '2016-10-26 20:51:25 +0100'
+thumbnail: https://i.vimeocdn.com/video/546122663_295x166.jpg
+category: Music
+embed: https://player.vimeo.com/video/147451691
+---
+
+Sound design for this short film explaining the work of Forest 500, the world's first ratings agency for rainforests. It tracks how key companies, investors and governments are performing in the race to remove deforestation from global supply chains.
+
+We made almost all sounds from small wooden instruments and household items.
+
+[Moth Collective](http://www.mothcollective.co.uk/)  
+[Forest 500](forest500.org)

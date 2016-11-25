@@ -1,0 +1,16 @@
+---
+title: The World
+layout: post
+client: SOAS
+date: '2016-10-26 20:51:25 +0100'
+thumbnail: https://i.ytimg.com/vi/zxgab-YGSqI/hqdefault.jpg
+category: music
+embed: https://www.youtube.com/embed/zxgab-YGSqI
+---
+
+Music and sound for a short history of the world to celebrate SOAS University’s centenary
+
+<a href="https://www.soas.ac.uk/">SOAS</a><br>
+<a href="http://www.scriberia.co.uk/">Scriberia</a>
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=118052895/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=none/transparent=true/" seamless=""><a href="http://skillbard.bandcamp.com/album/clockwork">Clockwork by Skillbard</a></iframe>

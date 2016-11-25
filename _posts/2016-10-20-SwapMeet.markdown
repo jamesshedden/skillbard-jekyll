@@ -1,0 +1,18 @@
+---
+title: Swap Meet
+layout: post
+client: Various
+date: '2016-10-26 20:51:25 +0100'
+thumbnail: https://i.vimeocdn.com/video/517757517_295x166.jpg
+category: Music
+embed: https://player.vimeo.com/video/125089843
+---
+
+Intro / outro music and sound design for three of the clips in this collaborative experiment between 14 artists around, where each artist creates a background and all backgrounds are traded randomly,&nbsp;then animated upon freely. Organised by [Caleb Wood](https://vimeo.com/calebwood).
+
+Bits I worked on:
+[Intro music](https://vimeo.com/125089843)  
+[This clip](https://vimeo.com/125089843#t=177s) by [Kyle Mowat](http://kvmowat.tumblr.com/) &amp; [Ellie Vuorinen](http://ellivuorinen.com/)  
+[This clip](https://vimeo.com/calebwood/swapmeet#t=282s) by [Lee Kyu-Tae](https://vimeo.com/kokooma) &amp; [Dave Prosser](http://www.daveprosser.co.uk/)  
+[This clip](https://vimeo.com/calebwood/swapmeet#t=96s) by [Lilli Carré](http://lillicarre.com/) &amp; [Shin Hashimoto](https://vimeo.com/user10659205)  
+[Outro music](https://vimeo.com/calebwood/swapmeet#t=374s)

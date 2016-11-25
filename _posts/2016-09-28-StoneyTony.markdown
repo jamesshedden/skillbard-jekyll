@@ -1,0 +1,11 @@
+---
+title: Stoney Tony
+layout: post
+client: Rumpus Animation
+date: '2016-10-26 20:51:25 +0100'
+thumbnail: https://i.vimeocdn.com/video/407021281_295x166.jpg
+category: Music
+embed: https://player.vimeo.com/video/58638171
+---
+
+Music and sound for madcap short film from illustrator Matthew The Horse and animators Rumpus Animation.

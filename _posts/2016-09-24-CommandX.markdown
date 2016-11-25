@@ -1,0 +1,13 @@
+---
+title: Command X
+layout: post
+client: AIGA National Design Conference
+date: '2016-10-26 20:51:25 +0100'
+thumbnail: https://i.vimeocdn.com/video/278843541_295x166.jpg
+category: Music
+embed: https://player.vimeo.com/video/80002824
+---
+
+Part of the AIGA National Design Conference in Minneapolis, Command X is a game show that does for graphic design what Project Runway does for fashion.
+
+These three title sequences, created by Non-Format, kick off each day of the competition and feature a Skillbard remix of Command X’s original theme. Non-Format asked me to bring the old guitar-driven power-pop tune into the next century with this slap-heavy proto-funk rendition. We were only too happy to oblige.
