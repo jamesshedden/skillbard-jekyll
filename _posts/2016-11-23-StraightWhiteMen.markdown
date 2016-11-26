@@ -3,7 +3,7 @@ title: Straight White Men
 layout: post
 client: Lena Dunham
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/600838698_295x166.jpg
+thumbnail: '/images/thumbnails/straight-white-men.jpg'
 category: sound
 embed: https://player.vimeo.com/video/189965558
 ---
