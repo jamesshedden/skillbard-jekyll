@@ -10,6 +10,16 @@
   position: relative;
 }
 
+.tile__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.tile__placeholder-image {
+  opacity: 0;
+}
+
 @media (max-width: 1200px) {
   .tile {
     padding: 0 10px 10px 0;

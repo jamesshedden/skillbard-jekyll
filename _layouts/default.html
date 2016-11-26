@@ -42,10 +42,30 @@
           id="content">
             {% if page.layout == 'default' %}
               {% for post in site.posts %}
-                <a class="tile"
+                <!-- <a class="tile"
                 href="{{ post.url }}">
                   <div class="tile__wrapper">
                     <img src="{{ post.thumbnail }}">
+                    <div class="tile__overlay">
+                      <div class="tile__overlay-text">
+                        {{ post.title }}<br>
+                        <span class="tile__divider">—</span><br>
+                        {{ post.client }}
+                      </div>
+                    </div>
+                  </div>
+                </a> -->
+
+                <a class="tile"
+                href="{{ post.url }}">
+                  <div class="tile__wrapper" style="
+                    background: url({{ post.thumbnail }});
+                    background-position: 50% 50%;
+                    background-size: 110% auto;
+                  ">
+                    <img class="tile__placeholder-image"
+                    src="https://i.vimeocdn.com/video/570529759_295x166.jpg">
+
                     <div class="tile__overlay">
                       <div class="tile__overlay-text">
                         {{ post.title }}<br>
