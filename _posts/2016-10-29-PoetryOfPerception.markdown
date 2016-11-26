@@ -3,7 +3,7 @@ title: Poetry Of Perception
 layout: post
 client: Harvard University
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/537589258_295x166.jpg
+thumbnail: /images/thumbnails/poetry-of-perception.png
 category: Music
 embed: https://player.vimeo.com/video/139929853
 ---

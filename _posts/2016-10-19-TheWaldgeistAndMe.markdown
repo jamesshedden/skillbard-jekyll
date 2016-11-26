@@ -3,7 +3,7 @@ title: The Waldgeist & Me
 layout: post
 client: RCA
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/513753344_295x166.jpg
+thumbnail: /images/thumbnails/waldgeist-meillocloseup.png
 category: Music
 embed: https://player.vimeo.com/video/98638604
 ---

@@ -3,7 +3,7 @@ title: Economics Of Evolution
 layout: post
 client: Studio PSK
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/500561413_295x166.jpg
+thumbnail: /images/thumbnails/EofE.png
 category: Music
 embed: https://player.vimeo.com/video/114767456
 ---

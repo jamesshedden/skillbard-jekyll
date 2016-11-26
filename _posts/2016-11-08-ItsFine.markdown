@@ -3,7 +3,7 @@ title: It's Fine
 layout: post
 client: Rachel Tan
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/561245826_295x166.jpg
+thumbnail: /images/thumbnails/its-fine.png
 category: corporate
 embed: https://player.vimeo.com/video/159485022
 ---

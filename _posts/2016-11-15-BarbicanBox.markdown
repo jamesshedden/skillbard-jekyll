@@ -3,7 +3,7 @@ title: Barbican Box
 layout: post
 client: The Barbican Centre
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/575950530_295x166.jpg
+thumbnail: /images/thumbnails/barbican-box.png
 category: music
 embed: https://player.vimeo.com/video/170767592
 ---

@@ -3,7 +3,7 @@ title: BAFTA Guru
 layout: post
 client: BAFTA
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/VIBgzwBdprg/hqdefault.jpg
+thumbnail: /images/thumbnails/bafta.png
 category: Music
 embed: https://www.youtube.com/embed/VIBgzwBdprg
 ---

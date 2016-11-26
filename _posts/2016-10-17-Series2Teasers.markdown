@@ -3,7 +3,7 @@ title: Series 2 Teasers
 layout: post
 client: Louis Vuitton
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/505814901_295x166.jpg
+thumbnail: /images/thumbnails/louis_vuitton.png
 category: Music
 embed: https://player.vimeo.com/video/118689963
 ---

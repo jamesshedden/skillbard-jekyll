@@ -3,7 +3,7 @@ title: Hyper Reality
 layout: post
 client: Keichi Matsuda
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/YJg02ivYzSs/hqdefault.jpg
+thumbnail: /images/thumbnails/hyper-reality_03.png
 category: music
 embed: https://player.vimeo.com/video/166807261
 ---

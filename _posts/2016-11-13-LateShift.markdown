@@ -3,7 +3,7 @@ title: Late Shift
 layout: post
 client: 4Music
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/570529759_295x166.jpg
+thumbnail: /images/thumbnails/late-shift.png
 category: music
 embed: https://player.vimeo.com/video/166443737
 ---

@@ -3,7 +3,7 @@ title: Quiet Videos
 layout: post
 client: The Guardian
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/S22MX2pviM4/hqdefault.jpg
+thumbnail: /images/thumbnails/QuietVideos.png
 category: Music
 embed: https://www.youtube.com/embed/S22MX2pviM4
 ---

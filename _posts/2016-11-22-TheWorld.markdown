@@ -3,7 +3,7 @@ title: The World
 layout: post
 client: SOAS
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/zxgab-YGSqI/hqdefault.jpg
+thumbnail: /images/thumbnails/soas.png
 category: music
 embed: https://www.youtube.com/embed/zxgab-YGSqI
 ---

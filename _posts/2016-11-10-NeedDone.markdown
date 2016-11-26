@@ -3,8 +3,8 @@ title: The Need/Done App
 layout: post
 client: Need/Done
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/563794336_295x166.jpg
-category: music
+thumbnail: /images/thumbnails/need-done.png
+category: Sound
 embed: https://player.vimeo.com/video/161199255
 ---
 

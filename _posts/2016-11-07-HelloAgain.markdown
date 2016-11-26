@@ -3,7 +3,7 @@ title: Hello Again
 layout: post
 client: Smithsonian Institution
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/fKPG2NDISWE/hqdefault.jpg
+thumbnail: /images/thumbnails/hello-again.png
 category: Music
 embed: https://www.youtube.com/embed/fKPG2NDISWE
 ---

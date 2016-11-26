@@ -3,8 +3,8 @@ title: The Make Charter
 layout: post
 client: Make Architects
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/518713515_295x166.jpg
-category: Music
+thumbnail: /images/thumbnails/the-make-charter.png
+category: Sound
 embed: https://www.youtube.com/embed/bzlyqC4QK3c
 ---
 

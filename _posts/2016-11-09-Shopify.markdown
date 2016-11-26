@@ -3,8 +3,8 @@ title: Various Projects
 layout: post
 client: Shopify
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/QXwgxelbQzk/hqdefault.jpg
-category: corporate
+thumbnail: /images/thumbnails/shopify.png
+category: Sound
 embed: https://www.youtube.com/embed/QXwgxelbQzk
 ---
 

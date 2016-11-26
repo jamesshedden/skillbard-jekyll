@@ -3,7 +3,7 @@ title: Death
 layout: post
 client: Vox
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/Mx9A0BjhEdU/hqdefault.jpg
+thumbnail: /images/thumbnails/poetry-of-perception.png
 category: music
 embed: https://www.youtube.com/embed/Mx9A0BjhEdU
 ---

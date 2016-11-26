@@ -3,8 +3,8 @@ title: Chain Of Custody
 layout: post
 client: Better Cotton Initiative
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/548877312_295x166.jpg
-category: Music
+thumbnail: /images/thumbnails/Chain-of-custody.png
+category: Sound
 embed: https://player.vimeo.com/video/149434241
 ---
 

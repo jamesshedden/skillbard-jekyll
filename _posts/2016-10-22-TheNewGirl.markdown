@@ -3,7 +3,7 @@ title: The New Girl
 layout: post
 client: Elle
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/bzlyqC4QK3c/hqdefault.jpg
+thumbnail: /images/thumbnails/the-new-girl-2.png
 category: Music
 embed: https://www.youtube.com/embed/bzlyqC4QK3c
 ---

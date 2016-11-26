@@ -3,7 +3,7 @@ title: Fundamentals Of Neuroscience pt.2
 layout: post
 client: Harvard University
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/495730019_295x166.jpg
+thumbnail: /images/thumbnails/mcb80x2.png
 category: Music
 embed: https://player.vimeo.com/video/110493841
 ---

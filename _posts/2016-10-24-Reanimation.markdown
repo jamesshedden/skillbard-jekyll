@@ -3,8 +3,8 @@ title: Réanimation
 layout: post
 client: France 4
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/573320631_295x166.jpg
-category: Music
+thumbnail: /images/thumbnails/reanimation.png
+category: Sound
 embed: https://player.vimeo.com/video/168764178
 ---
 

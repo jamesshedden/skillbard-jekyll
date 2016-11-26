@@ -3,7 +3,7 @@ title: Secrets Of Happiness / The Meaning Of Life
 layout: post
 client: Alain De Botton's School Of Life
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/NDNmC11vGYk/hqdefault.jpg
+thumbnail: /images/thumbnails/secrets-of-happiness.png
 category: Music
 embed: https://www.youtube.com/embed/NDNmC11vGYk
 ---

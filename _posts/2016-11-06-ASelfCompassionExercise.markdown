@@ -3,7 +3,7 @@ title: A Self Compassion Exercise
 layout: post
 client: Alain De Botton's School Of Life
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/553780990_295x166.jpg
+thumbnail: /images/thumbnails/self-compassion.png
 category: Music
 embed: https://player.vimeo.com/video/153483613
 ---

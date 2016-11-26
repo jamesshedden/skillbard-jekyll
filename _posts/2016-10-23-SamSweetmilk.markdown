@@ -3,7 +3,7 @@ title: Sam Sweetmilk
 layout: post
 client:
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/573374058_295x166.jpg
+thumbnail: h/images/thumbnails/sam-sweetmilk-1.png
 category: Music
 embed: https://player.vimeo.com/video/168807617
 ---

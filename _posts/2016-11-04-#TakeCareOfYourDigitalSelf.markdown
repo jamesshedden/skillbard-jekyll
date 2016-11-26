@@ -3,8 +3,8 @@ title: #TakeCareOfYourDigitalSelf
 layout: post
 client: Digital Wildfire Project
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/5nXaEctiVhs/hqdefault.jpg
-category: Music
+thumbnail: /images/thumbnails/digital-wildfire.png
+category: Sound
 embed: https://www.youtube.com/embed/5nXaEctiVhs
 ---
 

@@ -3,7 +3,7 @@ title: Being
 layout: post
 client: Harvard University
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/546457934_295x166.jpg
+thumbnail: /images/thumbnails/Being-2.png
 category: Music
 embed: https://player.vimeo.com/video/140656660
 ---
