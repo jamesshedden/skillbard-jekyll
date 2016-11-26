@@ -3,7 +3,7 @@ title: The Earth & I
 layout: post
 client: Taschen
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/594639345_295x166.jpg
+thumbnail: /images/thumbnails/Earth-&-I.png
 category: sound
 embed: https://player.vimeo.com/video/185018547
 ---
