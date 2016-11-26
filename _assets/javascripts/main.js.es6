@@ -26,6 +26,7 @@ let main = $('#main');
 function openSidebar() {
   sidebar.classList.add('is-open');
   site.classList.add('is-open');
+  main.classList.add('is-open');
 
   [].forEach.call(sidebarToggle, (element) => {
     element.classList.add('is-open');
@@ -37,6 +38,7 @@ function openSidebar() {
 function closeSidebar() {
   sidebar.classList.remove('is-open');
   site.classList.remove('is-open');
+  main.classList.remove('is-open');
 
   [].forEach.call(sidebarToggle, (element) => {
     element.classList.remove('is-open');

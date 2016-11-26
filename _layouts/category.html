@@ -16,17 +16,5 @@ layout: default
 </div>
 
 {% for post in site.categories.[page.category] %}
-  <a class="tile"
-  href="{{ post.url }}">
-    <div class="tile__wrapper">
-      <img src="{{ post.thumbnail }}">
-      <div class="tile__overlay">
-        <div class="tile__overlay-text">
-          {{ post.title }}<br>
-          <span class="tile__divider">—</span><br>
-          {{ post.client }}
-        </div>
-      </div>
-    </div>
-  </a>
+  {% include tile.html %}
 {% endfor %}

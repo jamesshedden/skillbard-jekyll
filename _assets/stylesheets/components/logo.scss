@@ -30,8 +30,17 @@
   width: 100px;
   height: 88px;
   position: absolute;
-  top: 35px;
-  left: 35px;
+  top: 55px;
+  left: 55px;
+}
+
+.logo--fixed {
+  position: fixed;
+  z-index: 2;
+}
+
+.logo--static {
+  display: none;
 }
 
 .logo__image {
@@ -54,6 +63,14 @@
     left: auto;
   }
 
+  .logo--fixed {
+    display: none;
+  }
+
+  .logo--static {
+    display: inline-block;
+  }
+
   .logo--post {
     margin-bottom: 50px;
   }
@@ -68,5 +85,13 @@
     position: relative;
     top: auto;
     left: auto;
+  }
+
+  .logo--fixed {
+    display: none;
+  }
+
+  .logo--static {
+    display: inline-block;
   }
 }

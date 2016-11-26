@@ -10,11 +10,44 @@
         <span class="sidebar__icon-text">Menu</span>
       </div>
 
+      {% if page.layout == 'post' %}
+        <a href="/" class="logo logo--post logo--fixed">
+          <img class="logo__image"
+          src="/images/logo.png">
+        </a>
+      {% endif %}
+
+      {% if page.layout != 'post' %}
+        <div class="main main--fixed"
+        id="main">
+          <div class="main__wrapper">
+            <div class="main__details{% if page.title and page.layout != 'category' %} main__details--page{% endif %}">
+              <div class="logo">
+                <img class="logo__image"
+                src="/images/logo.png">
+              </div>
+
+              <p class="main__text">
+                We create memorable bespoke music & sound<br/>
+                for animation, ads, games... you name it
+              </p>
+
+              <div class="client-logos">
+                <img class="client-logos__image client-logos__image--portrait"
+                src="/images/client-logos.png">
+
+                <img class="client-logos__image client-logos__image--landscape"
+                src="/images/client-logos-landscape.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+
       <div class="site"
       id="site">
         {% if page.layout != 'post' %}
-          <div class="main"
-          id="main">
+          <div class="main main--static">
             <div class="main__wrapper">
               <div class="main__details{% if page.title and page.layout != 'category' %} main__details--page{% endif %}">
                 <div class="logo">
@@ -42,25 +75,7 @@
           id="content">
             {% if page.layout == 'default' %}
               {% for post in site.posts %}
-                <a class="tile"
-                href="{{ post.url }}">
-                  <div class="tile__wrapper" style="
-                    background: url({{ post.thumbnail }});
-                    background-position: 50% 50%;
-                    background-size: 110% auto;
-                  ">
-                    <img class="tile__placeholder-image"
-                    src="/images/placeholder.gif">
-
-                    <div class="tile__overlay">
-                      <div class="tile__overlay-text">
-                        {{ post.title }}<br>
-                        <span class="tile__divider">—</span><br>
-                        {{ post.client }}
-                      </div>
-                    </div>
-                  </div>
-                </a>
+                {% include tile.html %}
               {% endfor %}
             {% endif %}
 
@@ -77,7 +92,7 @@
         {% if page.layout == 'post'%}
           <div class="content content--post"
           id="content">
-            <a href="/" class="logo logo--post">
+            <a href="/" class="logo logo--post logo--static">
               <img class="logo__image"
               src="/images/logo.png">
             </a>
