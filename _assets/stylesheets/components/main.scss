@@ -25,9 +25,13 @@
 }
 
 .main__text {
-  font-size: 22px;
+  font-size: 20px;
   margin: 40px 0;
-  width: 250px;
+}
+
+.main__text--worked-with {
+  color: $grey-color;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1200px) {
