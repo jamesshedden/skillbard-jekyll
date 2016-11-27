@@ -36,6 +36,18 @@ function closeElements(elements) {
   });
 }
 
+function addClickToCloseSidebar(elements) {
+  elements.map((el) => {
+    el ? el.addEventListener('click', () => closeSidebar()) : null;
+  });
+}
+
+function removeClickToCloseSidebar(elements) {
+  elements.map((el) => {
+    el ? el.removeEventListener('click', () => closeSidebar()) : null;
+  });
+}
+
 function openSidebar() {
   openElements([sidebar, site, main, postLogo]);
 
@@ -43,7 +55,7 @@ function openSidebar() {
     element.classList.add('is-open');
   });
 
-  site.addEventListener('click', () => closeSidebar());
+  addClickToCloseSidebar([site, main]);
 }
 
 function closeSidebar() {
@@ -53,7 +65,7 @@ function closeSidebar() {
     element.classList.remove('is-open');
   });
 
-  site.removeEventListener('click', () => closeSidebar());
+  removeClickToCloseSidebar([site, main]);
 }
 
 [].forEach.call(sidebarToggle, (element) => {
