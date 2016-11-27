@@ -1,16 +1,28 @@
 .main {
-  background: white;
-  height: 100%;
+  width: 50%;
+  height: 100vh;
   display: flex;
-  flex: 1 0 0;
   align-items: center;
   justify-content: center;
-  position: relative;
-  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transform: translateX(0);
+  transition: 0.2s transform $animation-curve;
+}
+
+.main--static {
+  display: none;
+}
+
+.main.is-open {
+  transform: translateX(-50%);
 }
 
 .main__wrapper {
-  padding: 10px;
+  flex: 1 1 auto;
+  padding-left: 20px;
 }
 
 .main__details {
@@ -35,26 +47,50 @@
 }
 
 @media (max-width: 1200px) {
+  .main {
+    position: relative;
+  }
+
   .main__text {
     width: auto;
     margin: 30px 0;
   }
 
-  .main {
+  .main--static {
     flex: none;
     display: block;
     height: auto;
+    width: 100%;
   }
 
   .main__wrapper {
     padding: 50px;
   }
+
+  .main--fixed {
+    display: none;
+  }
 }
 
 @media (max-width: 610px) {
+  .main {
+    position: relative;
+  }
+
   .main__text {
     width: 250px;
     margin: 30px auto;
+  }
+
+  .main--fixed {
+    display: none;
+  }
+
+  .main--static {
+    flex: none;
+    display: block;
+    height: auto;
+    width: 100%;
   }
 }
 
@@ -67,7 +103,7 @@
   background: $blue;
   color: white;
   display: inline-block;
-  position: absolute;
+  position: fixed;
   top: 10px;
   right: 10px;
   z-index: 1;

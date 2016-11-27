@@ -1,18 +1,23 @@
 .content {
   padding: 5px 0;
-  overflow-y: scroll;
   background: white;
-  flex: 1 0 0;
+  width: 50%;
+  margin-left: 50%;
+  overflow: auto;
 }
 
 .content--post {
   padding: 25px;
   padding-left: 170px;
+  margin-left: 0;
+  width: 100%;
 }
 
 @media (max-width: 1200px) {
   .content,
   .content--post {
+    width: 100%;
+    margin-left: 0;
     flex: none;
     display: block;
     height: auto;

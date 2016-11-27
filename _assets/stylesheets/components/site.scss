@@ -1,9 +1,10 @@
 .site {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
+  // display: flex;
+  // flex-direction: row;
+  min-height: 100vh;
   width: 100%;
   background: white;
+  overflow: auto;
   transform: translateX(0);
   transition: 0.2s transform $animation-curve;
   border: 20px solid $green;
