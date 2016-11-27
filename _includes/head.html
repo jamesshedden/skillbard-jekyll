@@ -7,9 +7,25 @@
 
   <title>
     {{ site.title | escape }}{% if page.title %} — {{ page.title | escape }}{% endif %}
-
   </title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- Google -->
+	<meta name="description" content="James Shedden is a designer & front end developer based in London.">
+	<meta name="keywords" content="James, Shedden, web design, web development, dev, design, web, website, designer, developer, music, musician, illustration, illustrator, animation, animator, songwriting, guitar, bass, vocals, production, BL00 John, Donald Patrick, Chooseday" />
+
+	<!-- Facebook -->
+	<meta property="og:title" content="James Shedden" />
+	<meta property="og:url" content="http://www.james.sh" />
+	<meta property="og:description" content="James Shedden is a designer & front end developer based in London." />
+	<meta property="og:image" content="http://james.sh/images/og_full.jpg"/>
+	<meta property="og:image" content="http://james.sh/images/og_square.jpg"/>
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@jamesshedden" />
+	<meta name="twitter:title" content="James Shedden" />
+	<meta name="twitter:description" content="James Shedden is a designer & front end developer based in London." />
+	<meta name="twitter:image" content="http://james.sh/images/og_full.jpg" />
 
   {% if site.safe == 'true' %}
     <link rel="stylesheet" href="{{ site.url }}/assets/main.css">
