@@ -4,7 +4,7 @@ layout: post
 client: SOAS
 date: '2016-10-26 20:51:25 +0100'
 thumbnail: /images/thumbnails/soas.png
-category: music
+category: [music, sound]
 embed: https://www.youtube.com/embed/zxgab-YGSqI
 ---
 

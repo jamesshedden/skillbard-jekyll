@@ -4,7 +4,7 @@ layout: post
 client: Scriberia
 date: '2016-10-26 20:51:25 +0100'
 thumbnail: /images/thumbnails/what-is-scribing.png
-category: music
+category: [music, sound]
 embed: https://player.vimeo.com/video/171385029
 ---
 

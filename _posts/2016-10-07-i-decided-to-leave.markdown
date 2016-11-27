@@ -4,7 +4,7 @@ layout: post
 client: Channel 4
 date: '2016-10-26 20:51:25 +0100'
 thumbnail: /images/thumbnails/I-Decided-To-Leave.png
-category: music
+category: [music, sound]
 embed: https://player.vimeo.com/video/93585374
 ---
 
