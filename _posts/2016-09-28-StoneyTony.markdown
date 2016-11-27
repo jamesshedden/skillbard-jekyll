@@ -4,7 +4,7 @@ layout: post
 client: Rumpus Animation
 date: '2016-10-26 20:51:25 +0100'
 thumbnail: /images/thumbnails/StonyTony.png
-category: Music
+category: music
 embed: https://player.vimeo.com/video/58638171
 ---
 

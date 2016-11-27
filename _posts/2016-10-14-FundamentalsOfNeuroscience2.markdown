@@ -4,7 +4,7 @@ layout: post
 client: Harvard University
 date: '2016-10-26 20:51:25 +0100'
 thumbnail: /images/thumbnails/mcb80x2.png
-category: Music
+category: music
 embed: https://player.vimeo.com/video/110493841
 ---
 

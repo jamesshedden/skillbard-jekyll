@@ -4,7 +4,7 @@ layout: post
 client: Harvard University
 date: '2016-10-26 20:51:25 +0100'
 thumbnail: https://i.vimeocdn.com/video/461189494_295x166.jpg
-category: Music
+category: music
 embed: https://player.vimeo.com/video/84349501
 ---
 

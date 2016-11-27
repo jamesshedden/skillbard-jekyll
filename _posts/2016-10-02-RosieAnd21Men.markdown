@@ -4,7 +4,7 @@ layout: post
 client: Sølve Sundsbø
 date: '2016-10-26 20:51:25 +0100'
 thumbnail: /images/thumbnails/Rosie21Men.png
-category: Music
+category: music
 embed: https://player.vimeo.com/video/78727950
 ---
 

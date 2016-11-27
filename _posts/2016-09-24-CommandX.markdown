@@ -4,7 +4,7 @@ layout: post
 client: AIGA National Design Conference
 date: '2016-10-26 20:51:25 +0100'
 thumbnail: /images/thumbnails/comandx.png
-category: Music
+category: music
 embed: https://player.vimeo.com/video/80002824
 ---
 

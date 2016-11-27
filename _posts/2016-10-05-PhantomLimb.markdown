@@ -4,7 +4,7 @@ layout: post
 client: Late Night Work Club
 date: '2016-10-26 20:51:25 +0100'
 thumbnail: /images/thumbnails/PhantomLimb.png
-category: Music
+category: music
 embed: https://player.vimeo.com/video/95255285
 ---
 

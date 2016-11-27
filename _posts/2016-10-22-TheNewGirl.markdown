@@ -4,7 +4,7 @@ layout: post
 client: Elle
 date: '2016-10-26 20:51:25 +0100'
 thumbnail: /images/thumbnails/the-new-girl-2.png
-category: Music
+category: music
 embed: https://www.youtube.com/embed/bzlyqC4QK3c
 ---
 
