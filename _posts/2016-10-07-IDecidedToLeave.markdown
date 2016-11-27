@@ -3,7 +3,7 @@ title: I Decided To Leave
 layout: post
 client: Channel 4
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/473787301_295x166.jpg
+thumbnail: /images/thumbnails/I-Decided-To-Leave.png
 category: Music
 embed: https://player.vimeo.com/video/93585374
 ---

@@ -3,7 +3,7 @@ title: Chipshop Symphony
 layout: post
 client: Keith Khan & Associates
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/124915674_295x166.jpg
+thumbnail: /images/thumbnails/chipshop.png
 category: Music
 embed: https://player.vimeo.com/video/19674412
 ---

@@ -3,7 +3,7 @@ title: Anorak TV Episode 2
 layout: post
 client: Anorak Magazine
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/v8ptnRSDgjE/hqdefault.jpg
+thumbnail: /images/thumbnails/AnrokakTVEP2-.png
 category: Music
 embed: https://www.youtube.com/embed/v8ptnRSDgjE
 ---

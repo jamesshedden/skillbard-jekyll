@@ -3,7 +3,7 @@ title: Style Hunt Theme
 layout: post
 client: I AM OTHER
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/OOwucCeeoj4/hqdefault.jpg
+thumbnail: /images/thumbnails/stylehunt.png
 category: Music
 embed: https://www.youtube.com/embed/OOwucCeeoj4
 ---

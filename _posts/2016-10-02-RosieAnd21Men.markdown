@@ -3,7 +3,7 @@ title: Rosie And 21 Men
 layout: post
 client: Sølve Sundsbø
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/454226783_295x166.jpg
+thumbnail: /images/thumbnails/Rosie21Men.png
 category: Music
 embed: https://player.vimeo.com/video/78727950
 ---

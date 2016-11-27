@@ -3,7 +3,7 @@ title: Phantom Limb
 layout: post
 client: Late Night Work Club
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/475116735_295x166.jpg
+thumbnail: /images/thumbnails/PhantomLimb.png
 category: Music
 embed: https://player.vimeo.com/video/95255285
 ---

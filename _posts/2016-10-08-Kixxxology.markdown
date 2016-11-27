@@ -3,7 +3,7 @@ title: Kixxxology
 layout: post
 client: Abelha Cachaça
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: /images/thumbnails/Kixxxology.png
+thumbnail: /images/thumbnails/abelha.png
 category: Music
 embed: https://www.youtube.com/embed/YeHYC9GFHDI
 ---

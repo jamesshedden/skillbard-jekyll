@@ -3,7 +3,7 @@ title: Duck Machine
 layout: post
 client: Faz Elektrik
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/gFkc1XHyjKA/hqdefault.jpg
+thumbnail: /images/thumbnails/duckmachine2.png
 category: Music
 embed: https://www.youtube.com/embed/gFkc1XHyjKA
 ---

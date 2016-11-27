@@ -3,7 +3,7 @@ title: Mary Berry Cookbook
 layout: post
 client: DK Books
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.vimeocdn.com/video/444162948_295x166.jpg
+thumbnail: /images/thumbnails/wwmd.png
 category: Music
 embed: https://player.vimeo.com/video/70786639
 ---

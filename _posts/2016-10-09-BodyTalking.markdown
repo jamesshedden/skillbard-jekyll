@@ -3,7 +3,7 @@ title: Body Talking
 layout: post
 client: IBM
 date: '2016-10-26 20:51:25 +0100'
-thumbnail: https://i.ytimg.com/vi/pqxj3FRwPTs/hqdefault.jpg
+thumbnail: images/thumbnails/BodyTalking.png
 category: Music
 embed: https://www.youtube.com/embed/pqxj3FRwPTs
 ---
