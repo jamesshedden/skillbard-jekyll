@@ -16,4 +16,4 @@ Focusing on the weird and whacky end of the musical spectrum, each new task is a
 
 On top of our years of composition and sound design for media, between us we offer a diverse background of professional and personal experiences in writing, producing, performing and releasing in our respective pop acts as well as directing music videos, TV brand spots and touring the world performing visuals to accompany live music. This is how we’ve developed such an intuition when it comes to how image and sound interact.
 
-Sling us a e-mail and we’ll hop right to it!
+<a href="mailto:oswald@skillbard.com">Sling us a e-mail</a> and we’ll hop right to it!

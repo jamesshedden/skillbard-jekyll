@@ -11,6 +11,16 @@
   font-size: 24px;
 }
 
+.page-container__content a,
+.page-container__content a:visited {
+  color: $blue;
+}
+
+.page-container__content a:hover,
+.page-container__content a:active {
+  color: $green;
+}
+
 @media (max-width: 1200px) {
   .page-container {
     width: 600px;
