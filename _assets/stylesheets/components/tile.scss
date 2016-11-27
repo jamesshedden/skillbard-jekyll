@@ -67,6 +67,10 @@
   background: $green;
 }
 
+.tile__overlay--pagination-link:hover {
+  background: $red;
+}
+
 .tile__wrapper:hover .tile__overlay {
   opacity: 1;
 }

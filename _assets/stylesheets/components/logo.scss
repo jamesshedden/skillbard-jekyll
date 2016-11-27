@@ -24,6 +24,12 @@
   width: 180px;
   height: 160px;
   display: inline-block;
+  transform: translateX(0);
+  transition: 0.2s transform $animation-curve;
+}
+
+.logo.is-open {
+  transform: translateX(-200%);
 }
 
 .logo--post {

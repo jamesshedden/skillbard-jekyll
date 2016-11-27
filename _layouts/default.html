@@ -11,7 +11,9 @@
       </div>
 
       {% if page.layout == 'post' %}
-        <a href="/" class="logo logo--post logo--fixed">
+        <a href="/"
+        id="post-logo"
+        class="logo logo--post logo--fixed">
           <img class="logo__image"
           src="/images/logo.png">
         </a>
@@ -22,10 +24,10 @@
         id="main">
           <div class="main__wrapper">
             <div class="main__details{% if page.title and page.layout != 'category' %} main__details--page{% endif %}">
-              <div class="logo">
+              <a href="/"  class="logo">
                 <img class="logo__image"
                 src="/images/logo.png">
-              </div>
+              </a>
 
               <p class="main__text">
                 We create memorable bespoke music & sound<br/>
@@ -50,10 +52,10 @@
           <div class="main main--static">
             <div class="main__wrapper">
               <div class="main__details{% if page.title and page.layout != 'category' %} main__details--page{% endif %}">
-                <div class="logo">
+                <a href="/" class="logo">
                   <img class="logo__image"
                   src="/images/logo.png">
-                </div>
+                </a>
 
                 <p class="main__text">
                   We create memorable bespoke music & sound<br/>
@@ -74,9 +76,37 @@
           <div class="content"
           id="content">
             {% if page.layout == 'default' %}
+              {% if paginator.previous_page_path %}
+                <a href="{{ paginator.previous_page_path }}"
+                class="tile">
+                  <div class="tile__wrapper">
+                    <img src="/images/placeholder.gif">
+                    <div class="tile__overlay tile__overlay--category tile__overlay--pagination-link">
+                      <div class="tile__overlay-text">
+                        &larr; Previous page<br>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              {% endif %}
+
               {% for post in paginator.posts %}
                 {% include tile.html %}
               {% endfor %}
+
+              {% if paginator.next_page_path %}
+                <a href="{{ paginator.next_page_path }}"
+                class="tile">
+                  <div class="tile__wrapper">
+                    <img src="/images/placeholder.gif">
+                    <div class="tile__overlay tile__overlay--category tile__overlay--pagination-link">
+                      <div class="tile__overlay-text">
+                        Next page &rarr;<br>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              {% endif %}
             {% endif %}
 
             {% if page.layout == 'category' %}
